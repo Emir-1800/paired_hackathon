@@ -15,6 +15,8 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
+import { NavLink } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -98,7 +100,9 @@ export default function PrimarySearchAppBar() {
       onClose={handleMenuClose}
     >
       <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
+      {/* <NavLink to="login"> */}
       <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+      {/* </NavLink> */}
     </Menu>
   );
 
@@ -184,6 +188,15 @@ export default function PrimarySearchAppBar() {
               inputProps={{ "aria-label": "search" }}
             />
           </Search>
+          <NavLink to="/">
+            <Button variant="contained">Home</Button>
+          </NavLink>
+          <NavLink to="/add">
+            <Button variant="contained">Add Product</Button>
+          </NavLink>
+          <NavLink to="/list">
+            <Button variant="contained">Products</Button>
+          </NavLink>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <IconButton
