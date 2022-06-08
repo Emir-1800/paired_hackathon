@@ -1,3 +1,34 @@
 {
-  "products": []
+  "products": [
+    {
+      "title": "Carrot",
+      "type": "Vegetables",
+      "description": "Carrots are a cool-season crop grown in spring. They are an excellent source of vitamin A and add color to a meal. They can be served cooked or raw.",
+      "price": "1",
+      "img1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaiMNT0iiD3sIEGjHKJt3mWSpwvSW__Y57Ig&usqp=CAU",
+      "img2": "",
+      "img3": "",
+      "id": 6
+    },
+    {
+      "title": "Tomato",
+      "type": "Vehetables",
+      "description": "The tomato is the edible berry of the plant Solanum lycopersicum, commonly known as the tomato plant. The species originated in western South America and Central America.",
+      "price": "2",
+      "img1": "https://avatars.mds.yandex.net/i?id=7334651a8c853c29878bb0e53de8bc3c-2769791-images-thumbs&n=13&exp=1",
+      "img2": "",
+      "img3": "",
+      "id": 1
+    },
+    {
+      "title": "Cabbage",
+      "type": "Vegetables",
+      "description": "Cabbage is a cool-season vegetable suited to both spring and fall. See our Cabbage Growing Guide with instructions on how to plant and grow this hardy, leafy vegetable—which is packed with vitamins!",
+      "price": "3",
+      "img1": "https://avatars.mds.yandex.net/i?id=1ed63aa2b6686489ee82a61a4a09da7f-5233567-images-thumbs&n=13&exp=1",
+      "img2": "",
+      "img3": "",
+      "id": 2
+    }
+  ]
 }
