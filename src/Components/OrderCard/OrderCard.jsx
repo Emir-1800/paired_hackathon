@@ -5,7 +5,7 @@ import chip from "../Image/chip.png";
 
 const OrderCard = () => {
   return (
-    <div class="container">
+    <div class="container1">
       <div className="card-container">
         <div className="front">
           <div className="image">
