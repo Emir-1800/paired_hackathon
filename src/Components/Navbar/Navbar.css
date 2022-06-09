@@ -1,3 +1,13 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.search {
+  height: 30px !important;
+  width: 200px !important;
+  background-color: white !important;
+}
+
+.search-container {
+  width: 400px;
+}
