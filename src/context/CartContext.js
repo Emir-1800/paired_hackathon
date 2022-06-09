@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from "react";
+import React, { createContext, useReducer, useState } from "react";
 import {
   calcSubPrice,
   calcTotalPrice,
@@ -25,6 +25,7 @@ const reducer = (state = INIT_STATE, action) => {
 
 const CartContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, INIT_STATE);
+  const [searchValue, setSearchValue] = useState("");
 
   const addProductToCart = (productItem) => {
     let cart = JSON.parse(localStorage.getItem("cart"));
@@ -113,6 +114,8 @@ const CartContextProvider = ({ children }) => {
         getCart,
         deleteCartProduct,
         changeProductCount,
+        searchValue,
+        setSearchValue,
       }}
     >
       {children}
