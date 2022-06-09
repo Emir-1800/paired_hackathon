@@ -20,6 +20,7 @@ import LocalGroceryStoreIcon from "@mui/icons-material/LocalGroceryStore";
 import { cartContext } from "../../context/CartContext";
 import { useContext } from "react";
 import { useEffect } from "react";
+import LiveSearch from "../LiveSearch/LiveSearch";
 
 const settings = ["Sign In"];
 
@@ -30,7 +31,7 @@ const ResponsiveAppBar = () => {
   console.log(cartLength);
   // useEffect(() => {
   //   getCart();
-  // }, [cart]);
+  // }, [searchValue]);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -59,8 +60,8 @@ const ResponsiveAppBar = () => {
             href="/"
             sx={{
               mr: 2,
-              display: { xs: "none", md: "flex" },
-              fontFamily: "Poppins', sans-serif",
+              display: { xs: "none", md: "flex", fontSize: 30 },
+              fontFamily: "Poppins",
               fontWeight: 300,
               letterSpacing: ".3rem",
               color: "secondary",
@@ -69,12 +70,13 @@ const ResponsiveAppBar = () => {
           >
             <br></br>B A Z A R
             <img
-              width={80}
-              src="https://img.freepik.com/free-vector/cute-vegetables-sticker-collection_52683-78214.jpg?w=740&t=st=1654619784~exp=1654620384~hmac=4a9b80f647ba6269e8604d5e5fc45a8464d686f2563269f08afdc529cbf5ea72"
+              width={130}
+              src="https://png.pngtree.com/png-clipart/20220307/original/pngtree-carrot-sticker-cartoon-icon-png-image_7424555.png"
               alt=""
               // srcSet=""
             />
           </Typography>
+          <LiveSearch />
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -130,6 +132,7 @@ const ResponsiveAppBar = () => {
           >
             LOGO
           </Typography>
+
           <Box
             sx={{
               flexGrow: 1,
@@ -146,7 +149,7 @@ const ResponsiveAppBar = () => {
               <Button
                 // key={pag}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "blue", display: "block" }}
+                sx={{ my: 2, color: "blue", display: "block", fontSize: 15 }}
               >
                 ADD PRODUCTS
               </Button>
@@ -155,7 +158,7 @@ const ResponsiveAppBar = () => {
               <Button
                 // key={pag}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "blue", display: "block" }}
+                sx={{ my: 2, color: "blue", display: "block", fontSize: 15 }}
               >
                 PRODUCTS
               </Button>
@@ -167,7 +170,7 @@ const ResponsiveAppBar = () => {
             <Tooltip title="Open settings">
               <NavLink to="/login">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
+                  <Avatar alt="" src="" />
                 </IconButton>
               </NavLink>
             </Tooltip>
