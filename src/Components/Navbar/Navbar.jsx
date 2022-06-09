@@ -70,7 +70,7 @@ const ResponsiveAppBar = () => {
           >
             <br></br>B A Z A R
             <img
-              width={130}
+              width={110}
               src="https://png.pngtree.com/png-clipart/20220307/original/pngtree-carrot-sticker-cartoon-icon-png-image_7424555.png"
               alt=""
               // srcSet=""
@@ -205,7 +205,10 @@ const ResponsiveAppBar = () => {
                 color="secondary"
               ></IconButton>
               <Badge badgeContent={cartLength} color="error">
-                <LocalGroceryStoreIcon />
+                <LocalGroceryStoreIcon
+                  fontSize="large"
+                  style={{ fontSize: "30px" }}
+                />
               </Badge>
             </NavLink>
           </MenuItem>

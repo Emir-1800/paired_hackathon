@@ -11,3 +11,9 @@
 .search-container {
   width: 400px;
 }
+
+@media (max-width: 600px) {
+  .size {
+    display: none;
+  }
+}
