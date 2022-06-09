@@ -176,7 +176,7 @@ const ProductDetails = () => {
               variant="outlined"
               sx={{ fontWeight: 700, mt: "20px" }}
             >
-              Телефон: +996777555111
+              Телефон: +996555222222
             </Alert>
           </Grid>
         </Grid>
