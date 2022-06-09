@@ -3,6 +3,7 @@ import { styled, alpha } from "@mui/material/styles";
 import SearchIcon from "@mui/icons-material/Search";
 import InputBase from "@mui/material/InputBase";
 import { useLocation, useSearchParams } from "react-router-dom";
+import "./LiveSearch.css";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -31,7 +32,10 @@ const SearchIconWrapper = styled("div")(({ theme }) => ({
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
-  color: "inherit",
+  color: "red",
+  fontSize: "20px",
+  border: " 1px solid white",
+  // background: "white",
   "& .MuiInputBase-input": {
     padding: theme.spacing(1, 1, 1, 0),
     // vertical padding + font size from searchIcon
@@ -46,13 +50,13 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 const LiveSearch = () => {
   const [searchValue, setSearchValue] = useState("");
-
+  console.log(searchValue);
   const [searchParams, setSearchParams] = useSearchParams();
 
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/list") {
+    if (location.pathname === "/productslist") {
       setSearchParams({
         q: searchValue,
       });
@@ -65,8 +69,9 @@ const LiveSearch = () => {
         <SearchIcon />
       </SearchIconWrapper>
       <StyledInputBase
+        // className="search"
         placeholder="Search…"
-        inputProps={{ "aria-label": "search" }}
+        inputProps={{ "aria-label": "search", color: "red" }}
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
       />
