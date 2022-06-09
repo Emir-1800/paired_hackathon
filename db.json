@@ -29,6 +29,156 @@
       "img2": "",
       "img3": "",
       "id": 2
+    },
+    {
+      "title": " raspberry ",
+      "type": "Berries",
+      "description": "The raspberry is the edible fruit of a multitude of plant species in the genus Rubus of the rose family, most of which are in the subgenus Idaeobatus.",
+      "price": "300",
+      "img1": "https://avatars.mds.yandex.net/i?id=27047ae3fb109b3416ac50cd9d889e52-5235644-images-thumbs&n=13",
+      "img2": "https://img4.goodfon.ru/original/4500x3000/2/ce/malina-iagody-miata.jpg",
+      "img3": "https://avatars.mds.yandex.net/i?id=d5397cf95819ab1c07eaa1b5bfc0dffe-7013926-images-thumbs&n=13",
+      "id": 7
+    },
+    {
+      "title": "strawberry",
+      "type": "Berries",
+      "description": "The garden strawberry (or simply strawberry; Fragaria × ananassa)[1] is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit.",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=a1af7807aeb459fe76cf5afc6b5454c2-5886407-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=f42c42a035be21eca656b9d809e66459-4012350-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=b45321909ef2b4ed6eba7552f9c5e318-4354006-images-thumbs&n=13",
+      "id": 8
+    },
+    {
+      "title": "blueberries",
+      "type": "Berries",
+      "description": "Blueberries are a widely distributed and widespread group of perennial flowering plants with blue or purple berries. ",
+      "price": "250",
+      "img1": "https://s1.1zoom.ru/big0/185/Blueberries_Berry_Foliage_White_background_600572_1280x853.jpg",
+      "img2": "https://avatars.mds.yandex.net/i?id=332a38a943aa5b92efc82e401e32c5ed-5859751-images-thumbs&ref=rim&n=33&w=268&h=188",
+      "img3": "https://2sotki.ru/wp-content/uploads/7/4/1/7416732c62dfed69ed781774dd51c81e.jpeg",
+      "id": 9
+    },
+    {
+      "title": "arbutus",
+      "type": "Berries",
+      "description": "Arbutus is a genus of 12 accepted species[2] of flowering plants in the family Ericaceae,[3] native to warm temperate regions of the Mediterranean, western Europe, the Canary Islands and North America.",
+      "price": "250",
+      "img1": "https://magazin-flora.ru/images/product_images/popup_images/823_0.jpg",
+      "img2": "https://magazin-flora.ru/images/product_images/popup_images/823_0.jpg",
+      "img3": "https://www.dhresource.com/webp/m/0x0/f2/albu/g4/M00/77/27/rBVaEVdzJDCALc03AALDg89rtJE844.jpg/red-bayberry-fruit-seeds-tree-seeds-10-particles.jpg",
+      "id": 10
+    },
+    {
+      "title": "Blackberry",
+      "type": "Berries",
+      "description": "The blackberry is an edible fruit produced by many species in the genus Rubus in the family Rosaceae, hybrids among these species within the subgenus Rubus, ",
+      "price": "250",
+      "img1": "https://img.impotsheb-granby.com/img/home-hacks-answers/why-are-the-blackberries-i-grow-bitter-1.jpg ",
+      "img2": "https://vse-yagodki.ru/wp-content/uploads/2021/10/b0df9feb2044443061ab70b6b54e6a35.jpg",
+      "img3": "https://img4.goodfon.ru/original/6000x4000/b/30/ezhevika-fresh-blackberry-wood-berries-iagody.jpg",
+      "id": 11
+    },
+    {
+      "title": "Grapes",
+      "type": "Berries",
+      "description": "The grapes is an edible fruit produced by many species in the genus Rubus in the family Rosaceae, hybrids among these species within the subgenus Rubus, ",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=f83982ba107a524c3374707314e9e3ed-5252657-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=ce226f1a7d53089fb58bd685694fbc0e-4231037-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=7b3ded44dd671b93f2362669e3b58e93-4076134-images-thumbs&n=13",
+      "id": 12
+    },
+    {
+      "title": "Banana",
+      "type": "Fruits",
+      "description": "The grapes is an edible fruit produced by many species in the genus Rubus in the family Rosaceae, hybrids among these species within the subgenus Rubus, ",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=f06d4130571a7b274a765fc54e19d4b3-5887345-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=4f8e2f360f52861d956c8bcbbf1c63a6-2744668-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=221276e8d2cc251c978ae1538fccf04c-5233722-images-thumbs&n=13",
+      "id": 13
+    },
+    {
+      "title": "Apple",
+      "type": "Fruits",
+      "description": "An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=06415fbd4c89038eb3c688c70cf60180-4957727-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=7419ebf98e6166e63a1eadda3c9e4844-5869158-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=c26d203c8906e1598927956495415718-7011736-images-thumbs&n=13",
+      "id": 14
+    },
+    {
+      "title": "Orange ",
+      "type": "Fruits",
+      "description": "Orange",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=fa4d4f7a70d8a765c3b0d243b2a8e7f2-5234848-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=fa4d4f7a70d8a765c3b0d243b2a8e7f2-5234848-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=fa4d4f7a70d8a765c3b0d243b2a8e7f2-5234848-images-thumbs&n=13",
+      "id": 15
+    },
+    {
+      "title": "Mango ",
+      "type": "Fruits",
+      "description": "Mango",
+      "price": "249",
+      "img1": "https://avatars.mds.yandex.net/i?id=733be09971b69d268748c0882fd39e89-6235762-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=58eecf4cc47404ce8ef84e46137cec25-4469612-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=c50217008b958a70a2874e86368e0ed2-5396936-images-thumbs&n=13",
+      "id": 16
+    },
+    {
+      "title": "Kiwi",
+      "type": "Fruits",
+      "description": "Kiwi",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=2a0000017a12ddc4da62788cafa459282fb5-4399581-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=0e32ec6560a44b036d3601b47ad69ffe-7055008-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=0cae8d3535440599bac44c886260a536-4821199-images-thumbs&n=13",
+      "id": 17
+    },
+    {
+      "title": "Pear",
+      "type": "Fruits",
+      "description": "Pear",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=d766e4af30ad33c0ea2dbd782af990e2-6972294-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=01a43fc3c4235bdb8853f1fb219146e5-7011736-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=0a80f0f0970c0d7aea7da9d39689c5ea-4935356-images-thumbs&n=13",
+      "id": 18
+    },
+    {
+      "title": "Potato",
+      "type": "Vegetables",
+      "description": "Potato",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=88978c93ca7628329fa93029f86c8b86-6612593-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=9e2b5ffe90cd97e9f74b309d99f1da6f-5859268-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=9e2b5ffe90cd97e9f74b309d99f1da6f-5859268-images-thumbs&n=13",
+      "id": 19
+    },
+    {
+      "title": "Bulgarian pepper",
+      "type": "Vegetables",
+      "description": "Bulgarian pepper",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=fa768f5cc8534700001941aae2dacb19-5581032-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=c7154fffd29636d53c20baf8c2ff6dd2-5222634-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=fe3243089c53c04bcf9a0e987c7d03ec-4955727-images-thumbs&n=13",
+      "id": 20
+    },
+    {
+      "title": "Onion",
+      "type": "Vegetables",
+      "description": "Onion",
+      "price": "250",
+      "img1": "https://avatars.mds.yandex.net/i?id=7bcac5639fe21c8147ea50f702995694-7004908-images-thumbs&n=13",
+      "img2": "https://avatars.mds.yandex.net/i?id=7d7bad3e18cd3a4c7a0c029e06f13bdb-4566264-images-thumbs&n=13",
+      "img3": "https://avatars.mds.yandex.net/i?id=b821c129d0418e166f28f9cf7a9d43f8-4469622-images-thumbs&n=13",
+      "id": 21
     }
   ]
 }
